@@ -1,0 +1,10 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+*.uasset filter=lfs diff=lfs merge=lfs -text
+*.umap filter=lfs diff=lfs merge=lfs -text
+
+*.umap filter=fbx diff=lfs merge=lfs -text
+*.umap filter=png diff=lfs merge=lfs -text
+*.umap filter=jpg diff=lfs merge=lfs -text
+*.umap filter=wav diff=lfs merge=lfs -text
+*.umap filter=mp4 diff=lfs merge=lfs -text
